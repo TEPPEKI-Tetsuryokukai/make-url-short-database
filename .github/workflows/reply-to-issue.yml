@@ -3,6 +3,9 @@ name: Reply to New Issue
 on:
   issues:
     types: [opened]   # 新しい Issue が作成されたとき
+permissions:
+  issues: write
+  contents: read
 
 jobs:
   comment:
