@@ -24,5 +24,11 @@ jobs:
               owner,
               repo,
               issue_number,
-              body: `https://click.l4qzix.f5.si/${issue_number}`
+              body: `
+              🔗 この Issue の専用リンクは [こちら](https://click.l4qzix.f5.si/${issue_number}) です
+              コピー用:
+              \`\`\`
+              https://click.l4qzix.f5.si/${issue_number}
+              \`\`\`
+              `
             });
